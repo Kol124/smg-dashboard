@@ -5,13 +5,16 @@ module.exports = {
       colors: {
         primary: "#051A2E",
         grey: "#97A7B4",
-        lightGrey: "#97A7B4",
       },
       width: {
         sidebar: "7.25rem",
+        card: "360px",
       },
       spacing: {
         sidebar: "7.25rem",
+      },
+      fontSize: {
+        small: "10px",
       },
     },
   },

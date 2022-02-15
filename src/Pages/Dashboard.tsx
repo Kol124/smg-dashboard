@@ -9,9 +9,9 @@ export const Dashboard = () => {
   return (
     <>
       <Sidebar />
-      <main className="ml-sidebar">
+      <main className="sm:ml-sidebar">
         <Header />
-        <div className="flex justify-between p-12">
+        <div className="flex flex-wrap p-12 font-mono">
           <SumCard title="Users" total={totalNumber} />
           <SumCard title="Posts" total={totalNumber} />
           <SumCard title="Comments" total={totalNumber} />
